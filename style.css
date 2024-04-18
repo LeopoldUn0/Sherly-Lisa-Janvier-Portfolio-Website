@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200;300;400;500;600&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+.lustria-regular {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: .4vw;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 90%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 13px;
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: scroll #f9d3b0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header_containing_basic_information {
+    display: flex;
+    align-items: center;
+    background: scroll #000000;
+    gap: 11.8%;
+    border-bottom: .7vh double #DA1D1D;
+    justify-content: right;
+}
+
+.name_and_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4%;
+}
+
+.title {
+    color: #3D8451;
+    font-size: 137%;
+}
+
+.Hdr_Name {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 334%;
+    color: rgb(255, 255, 255);
+}
+
+.contact_info {
+    width: 20%;
+    display: flex;
+    margin-right: 3%;
+}
+
+.hdr_basics {
+    display: flex;
+    width: 170%;
+    font-family: "Libre Bodoni", serif, ;
+    font-size: 160%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: #DA1D1D;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.prof_skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero_foundation {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+    align-items: center;
+    margin-right: 40%;
+    /* justify-content: space-around; */
+    gap: 7%;
+}
+
+.hero_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_image img {
+    display: flex;
+    width: 430px;
+    border-radius: 7%;
+}
+
+.hero_introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_description {
+    text-align: center;
+}
+
+.prof_skills {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.language_skills {
+    display: flex;
+    align-items: center;
+    width: 50;
+}
+
+.sklls {
+    margin-top: 18%;
+}
+
+.HP_images {
+    display: flex;
+    flex-direction: column;
+}
+
+.HP_images>div {
+    margin-bottom: 3%;
+    /* background-color: #338325; */
+    background-color: #ffffff32;
+}
+
+
+.main_segment_home_page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    scrollbar-color: #000000;
+}
+
+.Main_page_projects {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 510px;
+    justify-content: space-between;
+    font-family: "Lustria", serif;
+    font-size: 30px;
+}
+
+.Home_page_personal_projects {
+    color: #338325;
+}
+
+.Home_page_professional_projects {
+    color: gray;
+}
+
+.project_seperator {
+    color: #b15f5f;
+}
+
+.projects_imgs_part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.bby_Alli_OG img {
+    width: 723px;
+    height: 470px;
+    object-fit: fill;
+}
+
+.bby_Alli_description {
+    width: 723px;
+    text-align: justify;
+}
+
+.test_Photo1 img {
+    color: #ffffff;
+    height: 470px;
+    width: 723px;
+    text-align: justify;
+}
+
+.Image_1_description {
+    width: 723px;
+    text-align: justify;
+}
+
+.projects_imgs_part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.test_Photo2 img {
+    width: 723px;
+    height: 470px;
+}
+
+.Image_2_description {
+    width: 723px;
+    text-align: justify;
+}
+
+.test_Photo3 img {
+    width: 723px;
+    height: 470px;
+}
+
+.Image_3_description {
+    width: 723px;
+    text-align: justify;
+}
+
+.projects_imgs_part3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+
+.test_Photo4 img {
+    width: 723px;
+    height: 470px;
+}
+
+.Image_4_description {
+    width: 723px;
+    text-align: justify;
+}
+
+.test_Photo5 img {
+    width: 723px;
+    height: 470px;
+}
+
+.Image_5_description {
+    width: 723px;
+    text-align: justify;
+}
+
+.projects_imgs_part4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.test_Photo6 img {
+    width: 723px;
+    height: 470px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-top: 0.7vh double #DA1D1D;
+}
+
+.legalities {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    list-style: none;
+}
+
+*/
+/* TRIAL FOR RESPONSIVENESS OF WEBSITE */
+/* 
+.lustria-regular {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 1vw;
+    width: 0.3vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D38034;
+}
+
+body {
+    background-color: #262626;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header_containing_basic_information {
+    display: flex;
+    width: 100%;
+    background: #D38034;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+}
+
+.Hdr_Name {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 4.7vw;
+    font-weight: 100;
+    margin-left: 15vw;
+    color: #000;
+}
+
+.hdr_basics {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8vw;
+    gap: 4vw;
+    font-family: "Libre Bodoni", serif;
+    font-size: 3vw;
+    color: #fff;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:visited {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #0b59ab;
+}
+
+.main_segment_home_page {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 10vh;
+    scrollbar-color: #000000;
+}
+
+.Main_page_projects {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 4vh;
+    width: 31vw;
+    justify-content: space-between;
+    font-family: "Lustria", serif;
+    font-size: 3vw;
+}
+
+.Home_page_personal_projects {
+    color: #fff;
+}
+
+.project_seperator {
+    color: #fff;
+} */
